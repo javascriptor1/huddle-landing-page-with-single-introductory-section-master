@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* background-color: #674baf;
+  background-image: url("https://picsum.photos/900"); */
+  /* background: #674baf ,url('https://picsum.photos/900'); */
+  background-image: url('images/bg-mobile.svg'), linear-gradient(to right, #674baf, #674baf);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.social-media-div {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.social-media-div:hover {
+  border: 1px solid hsl(300, 69%, 71%);
+  fill: hsl(300, 69%, 71%);
+}
+
+a:hover {
+  box-shadow: 0 2px 9px 5px #523b8b;
+}
+
+img[src="images/logo.svg"] {
+  margin-left: -5rem;
+}
