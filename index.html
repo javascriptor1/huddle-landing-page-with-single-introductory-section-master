@@ -34,30 +34,37 @@
     </style>
   </head>
   <body
-    class="font-['Open Sans'] grid place-content-center min-h-screen] text-white lg:bg-[url('images/bg-desktop.svg')] bg-[#674baf]"
+    class="font-['Open Sans'] grid place-content-center min-h-screen] text-white lg:bg-[url('../images/bg-desktop.svg')] bg-[#674baf]"
   >
-    <main class="flex flex-col w-[340px]">
+    <main class="flex flex-col w-[340px] lg:grid lg:grid-cols-2 lg:w-[auto]">
       <!-- - div for logo and hero section - -->
-      <div class="flex flex-col mb-12">
-        <img src="images/logo.svg" alt="Huddle logo" class="mb-8 scale-50" />
+      <div class="flex flex-col mb-12 xl:ml-28">
+        <img
+          src="images/logo.svg"
+          alt="Huddle logo"
+          class="mb-8 scale-50 lg:scale-[35%] lg:block"
+        />
         <img src="images/illustration-mockups.svg" alt="illustration-mockups" />
       </div>
-      <div>
-        <h1 class="font-semibold font-['Poppins'] text-3xl text-center mb-4">
-          Build The Community Your Fans Will Love
+      <div class="lg:ml-12 lg:flex flex-col justify-start">
+        <h1
+          class="font-semibold font-['Poppins'] text-3xl text-center mb-4 lg:mt-[250px] lg:text-4xl lg:text-left"
+        >
+          Build The Community
+          <span class="lg:block lg:mt-4">Your Fans Will Love</span>
         </h1>
-        <p class="text-base text-center px-5">
+        <p class="text-base text-center px-5 lg:px-0 lg:w-[70%] lg:text-left">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
         <a
           href="#"
-          class="bg-white text-Violet rounded-full cursor-pointer py-3 px-24 mt-8 mb-12 w-fit block mx-auto hover:bg-[#e980e7] hover:text-white"
+          class="bg-white text-Violet rounded-full cursor-pointer py-3 px-24 mt-8 mb-12 w-fit block mx-auto hover:bg-[#e980e7] hover:text-white lg:px-12 lg:ml-0 lg:mb-72"
           >Register</a
         >
         <!-- social media div here  -->
-        <div class="flex gap-4 justify-center mb-8">
+        <div class="flex gap-4 justify-center mb-8 lg:justify-end lg:mr-12">
           <!-- facebook logo  -->
           <div class="social-media-div">
             <svg
